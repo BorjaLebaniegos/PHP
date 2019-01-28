@@ -1,0 +1,12 @@
+?php
+
+
+$Numero = $_GET['Numero'];
+$exp = 1;
+
+while (pow($Numero, $exp) < 10000) {  
+   $exp++;
+}
+
+echo "El Resultado es: ".$exp;
+ 
